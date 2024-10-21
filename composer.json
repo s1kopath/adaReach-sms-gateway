@@ -1,0 +1,29 @@
+{
+    "name": "s1kopath/adareach-sms-gateway",
+    "description": "A Laravel package for easy integration with the adaReach SMS platform, enabling sending SMS, managing bulk campaigns, checking delivery status, and monitoring account balance.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "S1kopath\\AdareachSmsGateway\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Md Asaduzzaman",
+            "email": "asaduzzaman.arob@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "S1kopath\\AdareachSmsGateway\\MyPackageServiceProvider"
+            ]
+        }
+    }
+}
