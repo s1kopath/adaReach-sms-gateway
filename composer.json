@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "S1kopath\\AdareachSmsGateway\\": "src/"
+            "S1kopath\\AdaReachSmsGateway\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "S1kopath\\AdareachSmsGateway\\MyPackageServiceProvider"
+                "S1kopath\\AdaReachSmsGateway\\AdaReachSmsGatewayServiceProvider"
             ]
         }
     }
